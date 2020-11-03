@@ -5,10 +5,12 @@
 int main(int argc, char** argv) {
 
     int x =45;
+    double res;
     x=54;
+    res=((6.0/89)*(5+3-9)/2)*4;
     
     printf("Hola %d \n\n", x);
-    printf("mundo \n");
+    printf("mundo %f \n", res);
     
     
     return (EXIT_SUCCESS);
