@@ -13,6 +13,8 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Ejercisio1.c</itemPath>
+      <itemPath>Ejercisio2.c</itemPath>
+      <itemPath>Ejercisio3.c</itemPath>
       <itemPath>If_Else.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -40,6 +42,10 @@
       </compileType>
       <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -62,6 +68,10 @@
         </asmTool>
       </compileType>
       <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If_Else.c" ex="false" tool="0" flavor2="0">
       </item>

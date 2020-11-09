@@ -35,7 +35,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Ejercisio1.o
+	${OBJECTDIR}/Ejercisio1.o \
+	${OBJECTDIR}/Ejercisio2.o \
+	${OBJECTDIR}/Ejercisio3.o
 
 
 # C Compiler Flags
@@ -66,6 +68,16 @@ ${OBJECTDIR}/Ejercisio1.o: Ejercisio1.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio1.o Ejercisio1.c
+
+${OBJECTDIR}/Ejercisio2.o: Ejercisio2.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio2.o Ejercisio2.c
+
+${OBJECTDIR}/Ejercisio3.o: Ejercisio3.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio3.o Ejercisio3.c
 
 # Subprojects
 .build-subprojects:
