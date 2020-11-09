@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,6 +5,7 @@ int main(int argc, char** argv) {
 
     int x =45;
     double res;
+    
     x=54;
     res=((6.0/89)*(5+3-9)/2)*4;
     
