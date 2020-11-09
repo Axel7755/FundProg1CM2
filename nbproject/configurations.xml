@@ -16,6 +16,7 @@
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
       <itemPath>If_Else.c</itemPath>
+      <itemPath>Repeticion1.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -40,11 +41,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
+      <item path="Repeticion1.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -74,6 +71,8 @@
       <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If_Else.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Repeticion1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>

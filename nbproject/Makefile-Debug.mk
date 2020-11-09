@@ -35,9 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Ejercisio1.o \
-	${OBJECTDIR}/Ejercisio2.o \
-	${OBJECTDIR}/Ejercisio3.o
+	${OBJECTDIR}/Repeticion1.o
 
 
 # C Compiler Flags
@@ -64,20 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Ejercisio1.o: Ejercisio1.c 
+${OBJECTDIR}/Repeticion1.o: Repeticion1.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio1.o Ejercisio1.c
-
-${OBJECTDIR}/Ejercisio2.o: Ejercisio2.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio2.o Ejercisio2.c
-
-${OBJECTDIR}/Ejercisio3.o: Ejercisio3.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio3.o Ejercisio3.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Repeticion1.o Repeticion1.c
 
 # Subprojects
 .build-subprojects:
