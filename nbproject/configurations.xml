@@ -15,6 +15,7 @@
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
+      <itemPath>For.c</itemPath>
       <itemPath>If_Else.c</itemPath>
       <itemPath>Repeticion1.c</itemPath>
       <itemPath>While_Ani.c</itemPath>
@@ -42,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="While_Ani.c" ex="false" tool="0" flavor2="0">
+      <item path="For.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -70,6 +71,8 @@
       <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="For.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If_Else.c" ex="false" tool="0" flavor2="0">
       </item>

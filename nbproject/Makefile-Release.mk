@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
 	${OBJECTDIR}/Ejercisio3.o \
+	${OBJECTDIR}/For.o \
 	${OBJECTDIR}/If_Else.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
@@ -82,6 +83,11 @@ ${OBJECTDIR}/Ejercisio3.o: Ejercisio3.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio3.o Ejercisio3.c
+
+${OBJECTDIR}/For.o: For.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/For.o For.c
 
 ${OBJECTDIR}/If_Else.o: If_Else.c 
 	${MKDIR} -p ${OBJECTDIR}
