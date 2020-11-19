@@ -35,6 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Arreglo.o \
+	${OBJECTDIR}/ArrgloUsua.o \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
 	${OBJECTDIR}/Ejercisio3.o \
@@ -68,6 +70,16 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Arreglo.o: Arreglo.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arreglo.o Arreglo.c
+
+${OBJECTDIR}/ArrgloUsua.o: ArrgloUsua.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ArrgloUsua.o ArrgloUsua.c
 
 ${OBJECTDIR}/Ejercisio1.o: Ejercisio1.c 
 	${MKDIR} -p ${OBJECTDIR}

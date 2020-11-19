@@ -12,6 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Arreglo.c</itemPath>
+      <itemPath>ArrgloUsua.c</itemPath>
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
@@ -43,7 +45,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="For.c" ex="false" tool="0" flavor2="0">
+      <item path="ArrgloUsua.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -66,6 +68,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Arreglo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ArrgloUsua.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
