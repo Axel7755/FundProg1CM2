@@ -3,12 +3,12 @@
 
 int main(int argc, char** argv) {
 
-    int us,n;
+    int us,n,max=0,min;
     
     printf("Ingresa la cantidad de numeros que desea inresar: \t");
     scanf("%d",&us);
     
-    long long int Ar[us];   
+    long int Ar[us];
         
     for(int x=0;x<us;x++){
         
@@ -16,12 +16,26 @@ int main(int argc, char** argv) {
         scanf("%d",&n);
         Ar[x]=n;
         
-    }
-    for(int y=0;y<us;y++){
+        if(x==0){
+            min=Ar[x];
+        }
         
-        printf("\n%d",Ar[y]);
+        if(Ar[x]>max){
+        
+            max=Ar[x];
+            
+        }
+        
+        if(Ar[x]<min){
+        
+            min=Ar[x];
+            
+        }
         
     }
+     
+    printf("El mayor es:  %d  y el menor es:  %d",max,min);
+    
         
     return (EXIT_SUCCESS);
 }

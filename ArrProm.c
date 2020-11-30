@@ -4,24 +4,24 @@
 int main(int argc, char** argv) {
 
     int us,n;
+    float prom;
     
     printf("Ingresa la cantidad de numeros que desea inresar: \t");
     scanf("%d",&us);
     
-    long long int Ar[us];   
+    long int Ar[us];   
         
     for(int x=0;x<us;x++){
         
-        printf("\nIngresa un numero: \t");
+        printf("\nIngresa un numero entero: \t");
         scanf("%d",&n);
-        Ar[x]=n;
+        Ar[x] = n;
+        prom = prom + n;
         
     }
-    for(int y=0;y<us;y++){
-        
-        printf("\n%d",Ar[y]);
-        
-    }
+    
+    prom=prom/us;
+    printf("\nEl promedio es: %f \n",prom);
         
     return (EXIT_SUCCESS);
 }

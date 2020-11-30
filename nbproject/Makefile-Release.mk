@@ -35,12 +35,17 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/ArrProm.o \
+	${OBJECTDIR}/Arr_Min_Max.o \
 	${OBJECTDIR}/Arreglo.o \
 	${OBJECTDIR}/ArrgloUsua.o \
+	${OBJECTDIR}/BurbOpt.o \
+	${OBJECTDIR}/Burbuja.o \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
 	${OBJECTDIR}/Ejercisio3.o \
 	${OBJECTDIR}/For.o \
+	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/If_Else.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
@@ -71,6 +76,16 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
+${OBJECTDIR}/ArrProm.o: ArrProm.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ArrProm.o ArrProm.c
+
+${OBJECTDIR}/Arr_Min_Max.o: Arr_Min_Max.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Arr_Min_Max.o Arr_Min_Max.c
+
 ${OBJECTDIR}/Arreglo.o: Arreglo.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -80,6 +95,16 @@ ${OBJECTDIR}/ArrgloUsua.o: ArrgloUsua.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ArrgloUsua.o ArrgloUsua.c
+
+${OBJECTDIR}/BurbOpt.o: BurbOpt.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BurbOpt.o BurbOpt.c
+
+${OBJECTDIR}/Burbuja.o: Burbuja.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Burbuja.o Burbuja.c
 
 ${OBJECTDIR}/Ejercisio1.o: Ejercisio1.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -100,6 +125,11 @@ ${OBJECTDIR}/For.o: For.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/For.o For.c
+
+${OBJECTDIR}/Funciones.o: Funciones.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Funciones.o Funciones.c
 
 ${OBJECTDIR}/If_Else.o: If_Else.c 
 	${MKDIR} -p ${OBJECTDIR}

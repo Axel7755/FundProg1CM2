@@ -12,12 +12,17 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>ArrProm.c</itemPath>
+      <itemPath>Arr_Min_Max.c</itemPath>
       <itemPath>Arreglo.c</itemPath>
       <itemPath>ArrgloUsua.c</itemPath>
+      <itemPath>BurbOpt.c</itemPath>
+      <itemPath>Burbuja.c</itemPath>
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
       <itemPath>For.c</itemPath>
+      <itemPath>Funciones.c</itemPath>
       <itemPath>If_Else.c</itemPath>
       <itemPath>Repeticion1.c</itemPath>
       <itemPath>While_Ani.c</itemPath>
@@ -45,7 +50,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="ArrgloUsua.c" ex="false" tool="0" flavor2="0">
+      <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -68,9 +73,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="ArrProm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Arr_Min_Max.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="Arreglo.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ArrgloUsua.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="BurbOpt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Burbuja.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -79,6 +92,8 @@
       <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="For.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="If_Else.c" ex="false" tool="0" flavor2="0">
       </item>
