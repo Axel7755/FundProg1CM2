@@ -23,7 +23,9 @@
       <itemPath>Ejercisio3.c</itemPath>
       <itemPath>For.c</itemPath>
       <itemPath>Funciones.c</itemPath>
+      <itemPath>FuncionesP.c</itemPath>
       <itemPath>If_Else.c</itemPath>
+      <itemPath>Prueba.c</itemPath>
       <itemPath>Repeticion1.c</itemPath>
       <itemPath>While_Ani.c</itemPath>
       <itemPath>main.c</itemPath>
@@ -50,7 +52,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Funciones.c" ex="false" tool="0" flavor2="0">
+      <item path="Prueba.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -95,7 +97,11 @@
       </item>
       <item path="Funciones.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="FuncionesP.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="If_Else.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Prueba.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Repeticion1.c" ex="false" tool="0" flavor2="0">
       </item>
