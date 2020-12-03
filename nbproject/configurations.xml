@@ -18,6 +18,7 @@
       <itemPath>ArrgloUsua.c</itemPath>
       <itemPath>BurbOpt.c</itemPath>
       <itemPath>Burbuja.c</itemPath>
+      <itemPath>ConvTemp.c</itemPath>
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
@@ -52,7 +53,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Prueba.c" ex="false" tool="0" flavor2="0">
+      <item path="ConvTemp.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -86,6 +87,8 @@
       <item path="BurbOpt.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ConvTemp.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejercisio1.c" ex="false" tool="0" flavor2="0">
       </item>

@@ -41,6 +41,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/ArrgloUsua.o \
 	${OBJECTDIR}/BurbOpt.o \
 	${OBJECTDIR}/Burbuja.o \
+	${OBJECTDIR}/ConvTemp.o \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
 	${OBJECTDIR}/Ejercisio3.o \
@@ -107,6 +108,11 @@ ${OBJECTDIR}/Burbuja.o: Burbuja.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Burbuja.o Burbuja.c
+
+${OBJECTDIR}/ConvTemp.o: ConvTemp.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ConvTemp.o ConvTemp.c
 
 ${OBJECTDIR}/Ejercisio1.o: Ejercisio1.c 
 	${MKDIR} -p ${OBJECTDIR}
