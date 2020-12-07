@@ -49,7 +49,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/FuncionesP.o \
 	${OBJECTDIR}/If_Else.o \
-	${OBJECTDIR}/Prueba.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
 	${OBJECTDIR}/main.o
@@ -148,11 +147,6 @@ ${OBJECTDIR}/If_Else.o: If_Else.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/If_Else.o If_Else.c
-
-${OBJECTDIR}/Prueba.o: Prueba.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Prueba.o Prueba.c
 
 ${OBJECTDIR}/Repeticion1.o: Repeticion1.c 
 	${MKDIR} -p ${OBJECTDIR}
