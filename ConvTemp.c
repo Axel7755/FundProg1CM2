@@ -24,9 +24,10 @@ int main(int argc, char** argv) {
             printf("No existe esa opcion favor de ingresar otro numero\n");
            
         }else{
-            
+        
+        if(e!=0){    
         printf("Ingrese la temperatura \t");
-        scanf("%f",&x);
+        scanf("%f",&x);}
         
         if(e==1){
             
