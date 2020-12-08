@@ -50,6 +50,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/FuncionesP.o \
 	${OBJECTDIR}/If_Else.o \
 	${OBJECTDIR}/Menu.o \
+	${OBJECTDIR}/PunteroVoid.o \
+	${OBJECTDIR}/Punteros.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
 	${OBJECTDIR}/main.o
@@ -153,6 +155,16 @@ ${OBJECTDIR}/Menu.o: Menu.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Menu.o Menu.c
+
+${OBJECTDIR}/PunteroVoid.o: PunteroVoid.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/PunteroVoid.o PunteroVoid.c
+
+${OBJECTDIR}/Punteros.o: Punteros.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Punteros.o Punteros.c
 
 ${OBJECTDIR}/Repeticion1.o: Repeticion1.c 
 	${MKDIR} -p ${OBJECTDIR}
