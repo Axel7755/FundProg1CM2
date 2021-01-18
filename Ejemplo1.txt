@@ -1,0 +1,3 @@
+Es muy similar a un printf
+Por lo que de igual manera se pueden guardar variables en el archivo
+Y el contenido de las mismas

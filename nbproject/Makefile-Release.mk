@@ -47,6 +47,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
 	${OBJECTDIR}/Ejercisio3.o \
+	${OBJECTDIR}/Ficheros.o \
 	${OBJECTDIR}/For.o \
 	${OBJECTDIR}/Funciones.o \
 	${OBJECTDIR}/FuncionesP.o \
@@ -145,6 +146,11 @@ ${OBJECTDIR}/Ejercisio3.o: Ejercisio3.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ejercisio3.o Ejercisio3.c
+
+${OBJECTDIR}/Ficheros.o: Ficheros.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ficheros.o Ficheros.c
 
 ${OBJECTDIR}/For.o: For.c 
 	${MKDIR} -p ${OBJECTDIR}

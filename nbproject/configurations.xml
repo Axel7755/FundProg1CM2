@@ -25,6 +25,7 @@
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
       <itemPath>Ejercisio3.c</itemPath>
+      <itemPath>Ficheros.c</itemPath>
       <itemPath>For.c</itemPath>
       <itemPath>Funciones.c</itemPath>
       <itemPath>FuncionesP.c</itemPath>
@@ -61,9 +62,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      <item path="Ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="newmain.c" ex="false" tool="0" flavor2="0">
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -109,6 +110,8 @@
       <item path="Ejercisio2.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Ejercisio3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Ficheros.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="For.c" ex="false" tool="0" flavor2="0">
       </item>
