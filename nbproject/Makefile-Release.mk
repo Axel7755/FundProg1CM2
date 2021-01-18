@@ -35,12 +35,14 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/APunt3.o \
 	${OBJECTDIR}/ArrProm.o \
 	${OBJECTDIR}/Arr_Min_Max.o \
 	${OBJECTDIR}/Arreglo.o \
 	${OBJECTDIR}/ArrgloUsua.o \
 	${OBJECTDIR}/BurbOpt.o \
 	${OBJECTDIR}/Burbuja.o \
+	${OBJECTDIR}/ContChar.o \
 	${OBJECTDIR}/ConvTemp.o \
 	${OBJECTDIR}/Ejercisio1.o \
 	${OBJECTDIR}/Ejercisio2.o \
@@ -54,7 +56,10 @@ OBJECTFILES= \
 	${OBJECTDIR}/Punteros.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/char.o \
+	${OBJECTDIR}/funciones.o \
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/newmain.o
 
 
 # C Compiler Flags
@@ -80,6 +85,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/fundprog1cm2 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/APunt3.o: APunt3.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/APunt3.o APunt3.c
 
 ${OBJECTDIR}/ArrProm.o: ArrProm.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -110,6 +120,11 @@ ${OBJECTDIR}/Burbuja.o: Burbuja.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Burbuja.o Burbuja.c
+
+${OBJECTDIR}/ContChar.o: ContChar.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ContChar.o ContChar.c
 
 ${OBJECTDIR}/ConvTemp.o: ConvTemp.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -176,10 +191,25 @@ ${OBJECTDIR}/While_Ani.o: While_Ani.c
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/While_Ani.o While_Ani.c
 
+${OBJECTDIR}/char.o: char.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/char.o char.c
+
+${OBJECTDIR}/funciones.o: funciones.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/funciones.o funciones.c
+
 ${OBJECTDIR}/main.o: main.c 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.c
+
+${OBJECTDIR}/newmain.o: newmain.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/newmain.o newmain.c
 
 # Subprojects
 .build-subprojects:

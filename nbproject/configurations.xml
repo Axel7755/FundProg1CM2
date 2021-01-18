@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>funciones.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,12 +13,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>APunt3.c</itemPath>
       <itemPath>ArrProm.c</itemPath>
       <itemPath>Arr_Min_Max.c</itemPath>
       <itemPath>Arreglo.c</itemPath>
       <itemPath>ArrgloUsua.c</itemPath>
       <itemPath>BurbOpt.c</itemPath>
       <itemPath>Burbuja.c</itemPath>
+      <itemPath>ContChar.c</itemPath>
       <itemPath>ConvTemp.c</itemPath>
       <itemPath>Ejercisio1.c</itemPath>
       <itemPath>Ejercisio2.c</itemPath>
@@ -31,7 +34,10 @@
       <itemPath>Punteros.c</itemPath>
       <itemPath>Repeticion1.c</itemPath>
       <itemPath>While_Ani.c</itemPath>
+      <itemPath>char.c</itemPath>
+      <itemPath>funciones.c</itemPath>
       <itemPath>main.c</itemPath>
+      <itemPath>newmain.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -55,7 +61,9 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="PunteroVoid.c" ex="false" tool="0" flavor2="0">
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="newmain.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -78,6 +86,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="APunt3.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="ArrProm.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Arr_Min_Max.c" ex="false" tool="0" flavor2="0">
@@ -89,6 +99,8 @@
       <item path="BurbOpt.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Burbuja.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ContChar.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="ConvTemp.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -116,7 +128,15 @@
       </item>
       <item path="While_Ani.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="char.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="newmain.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
