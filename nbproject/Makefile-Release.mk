@@ -55,6 +55,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Menu.o \
 	${OBJECTDIR}/PunteroVoid.o \
 	${OBJECTDIR}/Punteros.o \
+	${OBJECTDIR}/Recursividad.o \
 	${OBJECTDIR}/Repeticion1.o \
 	${OBJECTDIR}/While_Ani.o \
 	${OBJECTDIR}/char.o \
@@ -186,6 +187,11 @@ ${OBJECTDIR}/Punteros.o: Punteros.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Punteros.o Punteros.c
+
+${OBJECTDIR}/Recursividad.o: Recursividad.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Recursividad.o Recursividad.c
 
 ${OBJECTDIR}/Repeticion1.o: Repeticion1.c 
 	${MKDIR} -p ${OBJECTDIR}

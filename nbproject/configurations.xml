@@ -33,6 +33,7 @@
       <itemPath>Menu.c</itemPath>
       <itemPath>PunteroVoid.c</itemPath>
       <itemPath>Punteros.c</itemPath>
+      <itemPath>Recursividad.c</itemPath>
       <itemPath>Repeticion1.c</itemPath>
       <itemPath>While_Ani.c</itemPath>
       <itemPath>char.c</itemPath>
@@ -62,7 +63,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="Ficheros.c" ex="false" tool="0" flavor2="0">
+      <item path="Recursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="funciones.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -126,6 +127,8 @@
       <item path="PunteroVoid.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Punteros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Recursividad.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Repeticion1.c" ex="false" tool="0" flavor2="0">
       </item>
