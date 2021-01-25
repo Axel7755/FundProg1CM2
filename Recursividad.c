@@ -2,29 +2,47 @@
 #include <stdlib.h>
 
 long int fiv (int n);
-int c=0;
+long int fact (int n);
 
-    int u=1,p=0,i=2,A=1,x;
 int main(int argc, char** argv){
-    int n;
+    int n,op;
 
-    printf("Ingresa el numero de elementos que deseas ver de la serie de fibonaci: \t");
-    scanf("%d", &n);
-    
-    
-    printf("%d \n",p);
-
-    printf("%d \n",  fiv(n));
+    printf("Que desea ralizar: \n1.Fibonacci \n2.Factorial \n0. Salir");
+    scanf("%d",&op);
+    do{
+    switch(op){
+        case 1:
+            printf("Ingresa el numero del que desea su factorial: \t");
+            scanf("%d", &n);
+            printf("%d \n",  fact(n));
+            break;
+        case 2:
+            printf("Ingresa el numero del elemento que deseas ver de la serie de fibonaci: \t");
+            scanf("%d", &n);
+            printf("%d \n",  fiv(n));
+        break;
+        
+    }
+    }while(op!=0);
     return (EXIT_SUCCESS);
 }
 
-long int fiv (int n)   /* Calcular el factorial */
+long int fiv (int n)   
 {
-    if(n > 1){
-        printf("%d \n",A);
-        A=u+p;
-        p=u;
-        u=A;
-        return(fiv (n-1));
+    if(n < 2){
+        return n;
+    }
+    else{
+        return fiv(n-1) + fiv(n-2);
+    }
+}
+
+long int fact (int n)   
+{
+    if(n <= 1){
+        return 1;
+    }
+    else{
+        return n*fiv(n-1);
     }
 }
